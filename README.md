@@ -1,3 +1,7 @@
+# SIP e prática sipp
+
+Neste repositório você irá aprender a Instalar e configurar o ambiente, configurar extensões e a realizar análise de log do SIP em tempo real.
+
 ## O Que é o Asterisk? 
 
 * O Asterisk é um servidor de Voz sobre o IP (VoIP).
@@ -33,3 +37,20 @@ Após configurado o servidor, poderá ser realizado as ligações SIP entre o ha
 * Rede com roteador
 
 * Opcional: Telefone IP ( Hardphone )
+
+## Topologia 
+
+![Diagrama sem nome drawio](https://github.com/edunando/SIP-na-pratica/assets/88983626/7f70caf6-245f-41aa-bc98-7169ce7c8f59)
+
+## Instalação e configuração do Asterisk com FreePBX
+
+## VirtualBox
+
+* É um Hipervisor, ou seja, possibilita criar ambientes virtuais para instalação de outros sistemas.
+
+* Permite que um sistema operacional seja instalado e utilizado dentro de outro sistema, assim como seus respectivos softwares, mas compartilhando fisicamente o mesmo hardware.
+
+Para baixar o Hipervisor, basta acessar o site oficial [![Clicando aqui](https://www.virtualbox.org)
+
+
+
