@@ -50,7 +50,26 @@ Após configurado o servidor, poderá ser realizado as ligações SIP entre o ha
 
 * Permite que um sistema operacional seja instalado e utilizado dentro de outro sistema, assim como seus respectivos softwares, mas compartilhando fisicamente o mesmo hardware.
 
-Para baixar o Hipervisor, basta acessar o site oficial [[Clicando aqui](https://www.virtualbox.org)
+Para baixar o Hipervisor, basta acessar o site oficial [Clicando aqui](https://www.virtualbox.org).
+
+![virtualbox](https://github.com/edunando/SIP-na-pratica/assets/88983626/8e5e2967-3538-48da-924c-ca15da2332c3)
+
+## FreePBX
+
+* Para baixar o FreePBX vamos acessar a página oficial e realizar o download da ISO. [Clique aqui para acessar](https://www.freepbx.org)
+
+![FreePBX](https://github.com/edunando/SIP-na-pratica/assets/88983626/04e15cbd-d939-4f64-8f2d-7ffb3e289ea1)
+
+Após o Download vamos realizar a instalação no nosso Hipervisor selecionado, nesse caso o VirtualBox.
+
+* Configuração da Máquina Virtual do FreePBX
+
+![FreePBXhomepage](https://github.com/edunando/SIP-na-pratica/assets/88983626/66f6e789-d036-4c78-9fb0-4ff7c22a3c76)
+
+![ConfPBX](https://github.com/edunando/SIP-na-pratica/assets/88983626/5d14bb87-6001-4616-9639-5f9a285aa0e6)
+
+No momento da instalação você poderá utilizar uma versão do FreePBX de sua preferência, porém, a utilizada nesse momento foi o FreePBX 16 ( Asterisk 18 ). No momento da instalação lembre-se de configurar corretamente a senha de root para logar.
+
 
 
 
