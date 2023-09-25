@@ -105,8 +105,14 @@ Após a ativação será necessário preencher alguns dados seus no formulário 
 
 ## Configurando Módulo de rede
 
-Como dito anteriormente é necessário que as configurações de rede estejam configuradas corretamente para tudo funcionar perfeitamente. Para darmos continuidade ao processo de configuração do cenário vamos acessar Network Configuration que fica localizado no canto diretio da tela nas configurações administrativas, onde iremos mudar de DHCP para Static.
+Como dito anteriormente é necessário que as configurações de rede estejam configuradas corretamente para tudo funcionar perfeitamente. Para darmos continuidade ao processo de configuração do cenário vamos acessar Network Configuration que fica localizado no canto diretio da tela nas configurações administrativas, onde iremos mudar de DHCP para Static. Após Verificar que todas as configurações estão corretas basta salvar e aplicar, após isso o servidor será reiniciado e as configurações estarão setadas!
 
 ![Network Configuration](https://github.com/edunando/SIP-na-pratica/assets/88983626/81837bfc-c4d9-45d7-844f-df6d183be881)
 
+## Configurando Firewall
+
+Para configurarmos corretamente o nosso firewall do FreePBX é necessário acessar novamente as configurações administrativas após isso vamos na aba "Connectivity" --> Firewall
+Vamos selecionar a interface desejada, no caso a eth0 e deixar selecionado a opção Local ( Local Trusted Traffic ) como na imagem abaixo. Vale ressaltar de além de selecionnar a opção de update interface todas as configurações devem ser aplicadas senão não serão efetivadas, para isso selecionar a opção que fica no canto superior direito da tela Apply Config.
+
+![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/fe7b36a4-5ce5-4de4-8b7e-107612d2f787)
 
