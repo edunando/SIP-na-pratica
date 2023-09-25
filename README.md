@@ -165,10 +165,47 @@ Vamos selecionar a interface desejada, no caso a eth0 e deixar selecionado a op�
 
 ## Criando as Extensões no FreePBX
 
-Para criarmos nossas primeiras extensões vamos precisar acessar o Menu principal --> Applications --> Extensions onde iremos nos deparar com a seguinte página.
+* Para criarmos nossas primeiras extensões vamos precisar acessar o Menu principal --> Applications --> Extensions onde iremos nos deparar com a seguinte página.
 
 ![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/30995031-3096-4c53-8bfc-6d29925492c7)
 
-Vamos selecionar a Opção Add Extension e selecionar a opção "Add New SIP [chan_pjsip] Extension"
+* Vamos selecionar a Opção Add Extension e selecionar a opção "Add New SIP [chan_pjsip] Extension"
+
+* Após Acessar a janela de criação de extensão devemos númerar a extensão e salvar o Secret onde a mesma é a senha da extensão que será criada.
+  
+  ![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/227009b4-2e29-4b98-8681-c00617421b08)
+
+* Após isso irei repetir o mesmo processo para criar as nossas duas extensões do cenário do tipo PJSIP. Após a configuração realizada Selecionar a Opção Apply Config
+
+  ![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/24cb08bd-2fd9-42b1-8b13-3b78ec9115f1)
 
 
+## Configurando os Softphones
+
+* Como no momento não possuo em mãos um hardphone, irei continuar a configuração com dois Softphones um no meu desktop ( 5001 ) e outro em um aparelho celular ( 5002 ). O Software que estarei utilizando no desktop tanto para o softphone é o  3CX que você pode estar baixando ele diretamente no site oficial deles ![Clicando aqui](https://www.3cx.com/voip/softphone/) e no aparelho celular estarei utilizando o ZOIPER que pode ser encontrado na loja de seu dispositivo.
+
+![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/d9ac0b72-22a0-4991-adc8-d3e80603221f)
+
+* Após o Download vamos estar adicionando as nossas extensões aos Profiles, de inicio vamos configurar a nossa primeira extensão a 5001.
+  
+![Configsoftphone](https://github.com/edunando/SIP-na-pratica/assets/88983626/33a9ee8c-b320-4b61-b009-f7283596958b)
+
+* Após a configuração da primeira extensão estarei repetindo o mesmo processo para a segunda sendo o 5002.
+
+![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/2c4f2e16-488c-4467-9b25-6a7535cd868a)
+
+* Após isso estarei realizando a configuração no Zoiper.
+  
+![Imagem do WhatsApp de 2023-09-24 à(s) 23 17 48](https://github.com/edunando/SIP-na-pratica/assets/88983626/a01dabdf-6d5c-447a-be88-9c4be24d1f20)
+
+* Após as configurações, os softphones já estão funcionais e poderão ser utilizados com sucesso!!
+
+* Softphone Zoiper no Smarthphone
+
+![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/170c455e-1689-4ddb-8906-945887eb4604)
+
+* 3Cx no Computador
+
+![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/991e5822-fc22-4e53-895c-a227f53c1fbd)
+
+  
