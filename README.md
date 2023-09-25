@@ -116,3 +116,36 @@ Vamos selecionar a interface desejada, no caso a eth0 e deixar selecionado a op�
 
 ![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/fe7b36a4-5ce5-4de4-8b7e-107612d2f787)
 
+
+## Configurando Extensões Asterisk FreePBX
+
+* Uma extensão geralmente se refere a uma linha interna conectada ao PBX ( VoIP ou não ), e que não possui uma linha externa separada.
+
+* Permite que as empresas compartilhem algumas linhas externas entre muitos funcionários, pois nem todo mundo fará chamadas externas ao mesmo tempo.
+
+* Permite que os usuários do mesmo escritório liguem um para o outro escritório discando ramais de poucos dígitos em vez de procurar o número de telefone completo ( vários dígitos ).
+
+* Geralmente discagem por ramal é de quatro dígitos. Mas isso NÃO é regra, pode ter como uso menos ou mais dígitos.
+
+* Exemplo de Extensão
+
+![PEPBSIP drawio](https://github.com/edunando/SIP-na-pratica/assets/88983626/29e91360-d26b-49d9-b631-56bf889c0b92)
+
+* Voip e NAT
+
+* Os Protocolos VoIP convencionais são projetados de modo que cria um problema no tráfego de VoIP que passa pelo NAT.
+
+* Os protocolos de VoIP convencionais lidam apenas com a sinalização de uma conexão.
+
+* O Tráfgo de áudio é tratado por outro protocolo e, para piorar, a porta na qual o tráfego de áudio é enviado é aleatória.
+
+* O Roteador NAT pode ser capaz de lidar com o tráfego de sinalização, mas não tem como saber que o tráfego de áudio está relacionado à sinalização e, portanto, deve ser passado para o mesmo dispositivo ao qual o tráfego de sinalização é transmitido.
+
+* Como resultado, o tráfego de áudio não é traduzido corretamente entre os espaços de endereço. Inicialmente, tanto quem fez a chamada quanto para quem recebe parecerá bem. O interlocutor verá o identificador de chamada, o telefone tocará enquanto na outra extremidade.
+
+* Quando a outra pessoa chamada atender o telefone não ouvirá a parte chamada ( áudio unidirecional ) e também não poderia ouvir nada (sem áudio). A questão do NAT transversaç é um grande problema para a implantação do VOIP. O Problerma não é trivial e não há soluções simples.
+
+![sip-exempl drawio](https://github.com/edunando/SIP-na-pratica/assets/88983626/0cf43a9f-b043-4134-a14f-5f408c3d8588)
+
+* Implementação Sip no Asterisk: CHAN_PJSIP
+
