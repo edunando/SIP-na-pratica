@@ -147,5 +147,15 @@ Vamos selecionar a interface desejada, no caso a eth0 e deixar selecionado a op�
 
 ![sip-exempl drawio](https://github.com/edunando/SIP-na-pratica/assets/88983626/0cf43a9f-b043-4134-a14f-5f408c3d8588)
 
-* Implementação Sip no Asterisk: CHAN_PJSIP
+## Implementação Sip no Asterisk: CHAN_PJSIP
+
+* É uma biblioteca de comunicação multimídia de código aberto e gratuita que implementa protocolos como SIP, SDP, RPT.
+
+* Combina o Protocolo de Sinalização ( SIP ) com a estrutura multimídia e a funcionalidade do NAT na API de comunicação multimídia de alto nível que é portátil e adequada para praticamente qualquer tipo de sistema, desde desktop, sistemas embarcados a aparelhos móveis.
+
+* Fornece ao desenvolvedor, tudo o que precisa para criar um aplicativo de comunicação multimídia em tempo real. Todos os três componentes principais do aplicativo multimídia em tempo real, ou seja, sinalização, recursos de mídia e passagem NAT
+
+![CHAN PJSIP](https://github.com/edunando/SIP-na-pratica/assets/88983626/d3e6f8cb-0f64-4c4d-b206-7e4b0bf466f6)
+
+
 
