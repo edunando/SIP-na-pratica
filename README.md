@@ -158,4 +158,17 @@ Vamos selecionar a interface desejada, no caso a eth0 e deixar selecionado a op�
 ![CHAN PJSIP](https://github.com/edunando/SIP-na-pratica/assets/88983626/d3e6f8cb-0f64-4c4d-b206-7e4b0bf466f6)
 
 
+* Extensão do cenário
+  
+![Extensaocenario drawio](https://github.com/edunando/SIP-na-pratica/assets/88983626/f5a78e48-75e9-4392-9c72-d1d679d7f9d6)
+
+
+## Criando as Extensões no FreePBX
+
+Para criarmos nossas primeiras extensões vamos precisar acessar o Menu principal --> Applications --> Extensions onde iremos nos deparar com a seguinte página.
+
+![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/30995031-3096-4c53-8bfc-6d29925492c7)
+
+Vamos selecionar a Opção Add Extension e selecionar a opção "Add New SIP [chan_pjsip] Extension"
+
 
