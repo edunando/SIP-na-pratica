@@ -208,4 +208,14 @@ Vamos selecionar a interface desejada, no caso a eth0 e deixar selecionado a op�
 
 ![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/991e5822-fc22-4e53-895c-a227f53c1fbd)
 
-  
+
+## Extras - Visualização de Logs 
+
+* Para realização da visualização dos logs vamos estar utilizando o sngrep. Para utilizar a ferramente é bem simples, basta digita na CLI do seu servidor, após isso irá aparecer os logs atuais.
+
+![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/861af253-3421-4983-8834-f07c951e69d3)
+
+* Vamos selecionar um e verificar todo o funcionamento detalhadamente.
+
+![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/55d33797-0a9c-4761-aeb1-226dd3ef456c)
+
