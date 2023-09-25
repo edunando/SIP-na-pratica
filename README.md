@@ -70,5 +70,25 @@ Após o Download vamos realizar a instalação no nosso Hipervisor selecionado, 
 
 ![FreePBXhomepage](https://github.com/edunando/SIP-na-pratica/assets/88983626/66f6e789-d036-4c78-9fb0-4ff7c22a3c76)
 
+* IPs do Cenário
+  
+![ip drawio](https://github.com/edunando/SIP-na-pratica/assets/88983626/46f87112-5d2c-437f-9eb4-9ab39342fe66)
+
+Lembre-se de setar corretamente o IP do Gateway e o ip do Servidor para evitar problemas de configuração.
+
+* Portas que serão Utilizadas
+  
+![Portas drawio](https://github.com/edunando/SIP-na-pratica/assets/88983626/fe4db712-d1b4-4593-bf26-9f6110f02aec)
+
+* Tela inicial de Setup
+
+![Tela inicial de Setup](https://github.com/edunando/SIP-na-pratica/assets/88983626/2515bb58-5001-47fd-ac8d-88a8664b1351)
+
+Inicialmente vamos criar nosso usuário administrativo, senha e nome do servidor.
+
+* Menu Principal
+
+![Menu Principal](https://github.com/edunando/SIP-na-pratica/assets/88983626/3be658c1-1072-456d-8708-44b0eaf7be5d)
 
 
+  
