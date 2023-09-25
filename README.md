@@ -90,5 +90,23 @@ Inicialmente vamos criar nosso usuário administrativo, senha e nome do servidor
 
 ![Menu Principal](https://github.com/edunando/SIP-na-pratica/assets/88983626/3be658c1-1072-456d-8708-44b0eaf7be5d)
 
+## Ativando o FreePBX
 
-  
+Inicialmente você deve Acessar na tela inicial a parte de Admin Configuracion onde você poderá estar realizando tanto a ativação do Servidor quanto o Firewall pré-instalado no próprio FreePBX. Após a configuração inicial de Firewall e Linguagem, teremos acesso as principais funcionalidades de configuração e monitoramente do servidor.
+
+![Server](https://github.com/edunando/SIP-na-pratica/assets/88983626/fcb4332d-64cf-4fdb-9671-a1af2888d390)
+
+
+Apesar de ser um módulo gratuito, é necessário que a instalação do FreePBX seja ativa. Para realizar tal procedimento vamos acessar no menu superior esquerdo Admin --> System Admin --> Activation
+
+![image](https://github.com/edunando/SIP-na-pratica/assets/88983626/6caff9b5-bc4f-48e7-b656-0e7865f648a7)
+
+Após a ativação será necessário preencher alguns dados seus no formulário de ativação. Após o preenchimento dos dados a Ativação terá sido um sucesso!
+
+## Configurando Módulo de rede
+
+Como dito anteriormente é necessário que as configurações de rede estejam configuradas corretamente para tudo funcionar perfeitamente. Para darmos continuidade ao processo de configuração do cenário vamos acessar Network Configuration que fica localizado no canto diretio da tela nas configurações administrativas, onde iremos mudar de DHCP para Static.
+
+![Network Configuration](https://github.com/edunando/SIP-na-pratica/assets/88983626/81837bfc-c4d9-45d7-844f-df6d183be881)
+
+
